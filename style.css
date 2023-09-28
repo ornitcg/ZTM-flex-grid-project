@@ -99,6 +99,12 @@ a {
     margin-left: auto ;
 }
 
+.sticky {
+    position: fixed;
+    top: 0px; /* default? - fixed to top 0*/
+    width: 100%;
+}
+
 @media screen and (max-width: 500px) {
     .main-nav{
         font-size: 0.5em;
